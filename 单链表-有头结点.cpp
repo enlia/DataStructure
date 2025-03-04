@@ -3,7 +3,7 @@
 
 
 //主函数入口
-int main_danlianbiao() {
+int main() {
 	LinkList L = nullptr;	//创建时指向空
 	InitList(L);		//初始化单链表
 	for (int i = 0;i < 10;i++) {

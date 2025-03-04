@@ -10,7 +10,7 @@ typedef struct DNode {      //双链表结点类型
     ElemType data;          //数据域
     struct DNode* prior;    //前驱指针
     struct DNode* next;     //后继指针
-} DNode,*DLinkList;
+} DNode, * DLinkList;
 
 bool InitList(DLinkList& L);
 
