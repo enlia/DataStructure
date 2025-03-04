@@ -129,10 +129,12 @@
   <ItemGroup>
     <ClCompile Include="动态分配顺序表.cpp" />
     <ClCompile Include="单链表-有头结点.cpp" />
+    <ClCompile Include="双链表.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="动态分配顺序表.h" />
     <ClInclude Include="单链表-有头结点.h" />
+    <ClInclude Include="双链表.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
